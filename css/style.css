@@ -131,7 +131,7 @@ img {
 /* Tablet View */
 @media all and (max-width: 768px) {
 
-    .container{
+    .container {
         width: 768px;
     }
 
@@ -140,16 +140,16 @@ img {
 /* Mobile View */
 @media all and (max-width: 480px) {
 
-    .container{
+    .container {
         width: 480px;
     }
 
-    .row{
+    .row {
         flex-direction: column;
         align-items: center;
     }
 
-    .lessons .col{
+    .lessons .col {
         width: 100%;
     }
 
@@ -163,7 +163,6 @@ img {
 
     .why-us .col-left {
         width: 100%;
-        padding-bottom: 5rem;
     }
 
     .why-us .col-right {
@@ -177,6 +176,14 @@ img {
     .col {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+    }
+
+    .col:nth-child(2) {
+        margin-top: 6rem;
+    }
+
+    .col:nth-child(3) {
+        margin-top: 6rem;
     }
 
     h1 {
@@ -193,7 +200,6 @@ img {
 
     p{
         font-size: 1.3rem;
-        /* padding-bottom: 6rem; */
-        /* margin-bottom: 6rem; */
     }
+
 }
