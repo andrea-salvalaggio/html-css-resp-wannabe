@@ -128,48 +128,31 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+@media all and (max-width: 1140px) {
+    .container {
+        width: 100%;
+    }
+}
+
 /* Tablet View */
 @media all and (max-width: 768px) {
-
     .container {
-        width: 768px;
+        width: 100%;
     }
-
 }
 
 /* Mobile View */
 @media all and (max-width: 480px) {
-
-    .container {
-        width: 480px;
-    }
-
     .row {
         flex-direction: column;
         align-items: center;
     }
 
-    .lessons .col {
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
         width: 100%;
     }
 
-    .steps .col img {
-        height: 250px;
-    }
-
-    .steps .col{
-        width: 100%;
-    }
-
-    .why-us .col-left {
-        width: 100%;
-    }
-
-    .why-us .col-right {
-        width: 100%;
-    }
-
-    .lessons .col img {
+    .steps .col img, .lessons .col img {
         height: 250px;
     }
 
@@ -201,5 +184,4 @@ img {
     p{
         font-size: 1.3rem;
     }
-
 }
